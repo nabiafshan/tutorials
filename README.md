@@ -13,17 +13,42 @@ For each sequence read the FASTQ file contains 4 lines of information:
 
 Let's check our toy example and look for this information.
 
-Sources (and for more details, see): [Wikipedia on FASTQ format](https://www.wikiwand.com/en/FASTQ_format) and [this tutorial](https://hbctraining.github.io/Intro-to-rnaseq-hpc-O2/lessons/02_assessing_quality.html). 
+
 
 ### What's the deal with the weird looking quality scores?
 
-` Quality encoding: !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHI`
+Using these character codes, we have one character per nucleotide (instead of numbers like 0 to 40). This reduces file size. 
 
-`                   |         |         |         |         |`
+```
+ Quality encoding: !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHI
+                   |         |         |         |         |
+    Quality score: 0........10........20........30........40
+```
 
-`    Quality score: 0........10........20........30........40`
+Side note to break the flow: This mapping corresponds to Phred-33. There also exists a Phred-66 mapping, but apparently it is not used as frequently in new NGS data [src](http://seqanswers.com/forums/showthread.php?t=81978). 
+
+### Uh, so each character stands for a number. What does the number mean?
+
+The number is the _quality score_ `Q`. It can be converted into the _probability  that the nucleotide called is wrong_ `P` using the following formula.
+
+```
+Q = -10 x log10(P), where P is the probability that a base call is erroneous
+```
+
+Basically, this just means that:
+
+| Phred Quality score Q | Probability of incorrect base call P | Base call accuracy  | 
+:----------|:-------------|:-------------|
+| 10 | 1 in 10 | 90% |
+| 20 | 1 in 100 | 99% |
+| 30 | 1 in 1000 | 99.9% |
+| 40 | 1 in 10,000 | 99.99% |
 
 
+So, the higher the quality score Q corresponding to quality encoding character is, the more we are confident that the character at a given position in the read is accurate.  
+
+
+Sources (and for more details, see): [Wikipedia on FASTQ format](https://www.wikiwand.com/en/FASTQ_format) and [this tutorial](https://hbctraining.github.io/Intro-to-rnaseq-hpc-O2/lessons/02_assessing_quality.html). 
 
 
 ## Step-by-step tutorial to running fastqc on the HPC
