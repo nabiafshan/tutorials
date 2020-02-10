@@ -1,0 +1,132 @@
+source /etc/profile.d/modules.sh
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+Started analysis of SP1.fq
+Analysis complete for SP1.fq
+
+======================================================================================
+SLURM_CHECKPOINT_IMAGE_DIR=/var/slurm/checkpoint
+SLURM_NODELIST=lx15
+SLURM_JOB_NAME=Slurm-Test
+MANPATH=/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/perl-5.26.2-jmjehqrqi64ra6scmf5ef5vq2jeq3dye/man:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/gdbm-1.14.1-ydh33dscjnyglhq4ys7eaowguymnu44q/share/man:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/readline-7.0-hxl3fbh2inrmz7c3crigdhqjqxj67gzo/share/man:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/ncurses-6.1-wzit5nwnwohxwtj4ny5nxosgp4owaupv/share/man:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/jdk-8u172-b11-ibnkbvtb23ihb7ubuv4whedq4pbcyn4z/man:/usr/share/lmod/lmod/share/man::
+XDG_SESSION_ID=409999
+SLURMD_NODENAME=lx15
+SLURM_TOPOLOGY_ADDR=lx15
+HOSTNAME=lx15
+SLURM_NTASKS_PER_NODE=1
+_ModuleTable003_=YW1lIl09ImdkYm0tMS4xNC4xLWdjYy04LjIuMC15ZGgzM2RzIixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzaG9ydCJdPSJnZGJtLTEuMTQuMS1nY2MtOC4yLjAteWRoMzNkcyIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LFsiamRrLTh1MTcyLWIxMS1nY2MtOC4yLjAtaWJua2J2dCJdPXtbIkZOIl09Ii9jdGEvYXBwcy9zaGFyZS9zcGFjay9tb2R1bGVzL2xpbnV4LXVidW50dTE2LjA0LXg4Nl82NC9qZGstOHUxNzItYjExLWdjYy04LjIuMC1pYm5rYnZ0IixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0iamRrLTh1MTcyLWIxMS1nY2MtOC4yLjAtaWJua2J2dCIsWyJsb2FkT3JkZXIiXT0xLHByb3BUPXt9LFsic2hvcnQiXT0iamRrLTh1MTcyLWIxMS1nY2MtOC4yLjAtaWJu
+SLURM_PRIO_PROCESS=0
+SLURM_NODE_ALIASES=(null)
+SHELL=/bin/bash
+TERM=xterm-256color
+SLURM_JOB_QOS=short
+TMPDIR=/tmp
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+SSH_CLIENT=10.50.9.103 51328 22
+MODULEPATH_ROOT=/usr/modulefiles
+LMOD_DEFAULT_MODULEPATH=/cta/apps/share/spack/modules/linux-ubuntu16.04-x86_64:/cta/apps/share/spack/modules/linux-ubuntu16.04-ivybridge:/usr/modulefiles/Linux:/usr/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+LIBRARY_PATH=/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/fastqc-0.11.7-43xnlgyoirw272pcjr2ymt4hsv5xkx43/lib:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/perl-5.26.2-jmjehqrqi64ra6scmf5ef5vq2jeq3dye/lib:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/gdbm-1.14.1-ydh33dscjnyglhq4ys7eaowguymnu44q/lib:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/readline-7.0-hxl3fbh2inrmz7c3crigdhqjqxj67gzo/lib:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/ncurses-6.1-wzit5nwnwohxwtj4ny5nxosgp4owaupv/lib:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/jdk-8u172-b11-ibnkbvtb23ihb7ubuv4whedq4pbcyn4z/lib
+LMOD_PKG=/usr/share/lmod/lmod
+SSH_TTY=/dev/pts/6
+_ModuleTable007_=Nl82NDovY3RhL2FwcHMvc2hhcmUvc3BhY2svbW9kdWxlcy9saW51eC11YnVudHUxNi4wNC1pdnlicmlkZ2U6L3Vzci9tb2R1bGVmaWxlcy9MaW51eDovdXNyL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsWyJ2ZXJzaW9uIl09Mix9
+SLURM_MEM_PER_CPU=12500
+SLURM_NNODES=1
+USER=afshannabi
+LMOD_sys=Linux
+LD_LIBRARY_PATH=/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/fastqc-0.11.7-43xnlgyoirw272pcjr2ymt4hsv5xkx43/lib:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/perl-5.26.2-jmjehqrqi64ra6scmf5ef5vq2jeq3dye/lib:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/gdbm-1.14.1-ydh33dscjnyglhq4ys7eaowguymnu44q/lib:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/readline-7.0-hxl3fbh2inrmz7c3crigdhqjqxj67gzo/lib:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/ncurses-6.1-wzit5nwnwohxwtj4ny5nxosgp4owaupv/lib:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/jdk-8u172-b11-ibnkbvtb23ihb7ubuv4whedq4pbcyn4z/lib:/tmp/root/spack-stage/spack-stage-cGSuOr/ncbi_cxx--21_0_0/local/ncbi-vdb-2.8.2/lib64::
+_ModuleTable004_=a2J2dCIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LFsibmN1cnNlcy02LjEtZ2NjLTguMi4wLXd6aXQ1bnciXT17WyJGTiJdPSIvY3RhL2FwcHMvc2hhcmUvc3BhY2svbW9kdWxlcy9saW51eC11YnVudHUxNi4wNC14ODZfNjQvbmN1cnNlcy02LjEtZ2NjLTguMi4wLXd6aXQ1bnciLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJuY3Vyc2VzLTYuMS1nY2MtOC4yLjAtd3ppdDVudyIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic2hvcnQiXT0ibmN1cnNlcy02LjEtZ2NjLTguMi4wLXd6aXQ1bnciLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxbInBlcmwtNS4yNi4yLWdjYy04LjIuMC1qbWplaHFyIl09e1siRk4iXT0iL2N0YS9hcHBzL3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgt
+CPATH=/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/gdbm-1.14.1-ydh33dscjnyglhq4ys7eaowguymnu44q/include:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/readline-7.0-hxl3fbh2inrmz7c3crigdhqjqxj67gzo/include:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/ncurses-6.1-wzit5nwnwohxwtj4ny5nxosgp4owaupv/include:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/jdk-8u172-b11-ibnkbvtb23ihb7ubuv4whedq4pbcyn4z/include
+SLURM_JOBID=460862
+SLURM_NTASKS=1
+LMOD_IGNORE_CACHE=1
+LMOD_PREPEND_BLOCK=normal
+SLURM_TASKS_PER_NODE=1
+PATH=/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/jdk-8u172-b11-ibnkbvtb23ihb7ubuv4whedq4pbcyn4z/bin:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/fastqc-0.11.7-43xnlgyoirw272pcjr2ymt4hsv5xkx43/bin:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/perl-5.26.2-jmjehqrqi64ra6scmf5ef5vq2jeq3dye/bin:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/gdbm-1.14.1-ydh33dscjnyglhq4ys7eaowguymnu44q/bin:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/readline-7.0-hxl3fbh2inrmz7c3crigdhqjqxj67gzo/bin:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/ncurses-6.1-wzit5nwnwohxwtj4ny5nxosgp4owaupv/bin:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/jdk-8u172-b11-ibnkbvtb23ihb7ubuv4whedq4pbcyn4z/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/cta/apps/scripts
+MAIL=/var/mail/afshannabi
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09NixiYXNlTXBhdGhBPXsiL2N0YS9hcHBzL3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtdWJ1bnR1MTYuMDQteDg2XzY0IiwiL2N0YS9hcHBzL3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtdWJ1bnR1MTYuMDQtaXZ5YnJpZGdlIiwiL3Vzci9tb2R1bGVmaWxlcy9MaW51eCIsIi91c3IvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09NzIwMCxbImNfc2hvcnRUaW1lIl09OC4yMDQwMjU5ODM4MTA0LGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17WyJmYXN0cWMtMC4xMS43LWdjYy04LjIuMC00M3hubGd5Il09e1siRk4iXT0iL2N0YS9h
+SLURM_JOB_ID=460862
+LMOD_SETTARG_CMD=:
+SLURM_JOB_USER=afshannabi
+PWD=/cta/users/afshannabi/workfolder/fastqc-hpc-tutorial
+_LMFILES_=/cta/apps/share/spack/modules/linux-ubuntu16.04-x86_64/jdk-8u172-b11-gcc-8.2.0-ibnkbvt:/cta/apps/share/spack/modules/linux-ubuntu16.04-x86_64/ncurses-6.1-gcc-8.2.0-wzit5nw:/cta/apps/share/spack/modules/linux-ubuntu16.04-x86_64/readline-7.0-gcc-8.2.0-hxl3fbh:/cta/apps/share/spack/modules/linux-ubuntu16.04-x86_64/gdbm-1.14.1-gcc-8.2.0-ydh33ds:/cta/apps/share/spack/modules/linux-ubuntu16.04-x86_64/perl-5.26.2-gcc-8.2.0-jmjehqr:/cta/apps/share/spack/modules/linux-ubuntu16.04-x86_64/fastqc-0.11.7-gcc-8.2.0-43xnlgy
+JAVA_HOME=/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/jdk-8u172-b11-ibnkbvtb23ihb7ubuv4whedq4pbcyn4z
+CUDA_VISIBLE_DEVICES=NoDevFiles
+LANG=en_US.UTF-8
+MODULEPATH=/cta/apps/share/spack/modules/linux-ubuntu16.04-x86_64:/cta/apps/share/spack/modules/linux-ubuntu16.04-ivybridge:/usr/modulefiles/Linux:/usr/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+LOADEDMODULES=jdk-8u172-b11-gcc-8.2.0-ibnkbvt:ncurses-6.1-gcc-8.2.0-wzit5nw:readline-7.0-gcc-8.2.0-hxl3fbh:gdbm-1.14.1-gcc-8.2.0-ydh33ds:perl-5.26.2-gcc-8.2.0-jmjehqr:fastqc-0.11.7-gcc-8.2.0-43xnlgy
+SLURM_JOB_UID=1000146
+_ModuleTable_Sz_=7
+SLURM_NODEID=0
+SLURM_SUBMIT_DIR=/cta/users/afshannabi/workfolder/fastqc-hpc-tutorial
+_ModuleTable005_=dWJ1bnR1MTYuMDQteDg2XzY0L3BlcmwtNS4yNi4yLWdjYy04LjIuMC1qbWplaHFyIixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0icGVybC01LjI2LjItZ2NjLTguMi4wLWptamVocXIiLFsibG9hZE9yZGVyIl09NSxwcm9wVD17fSxbInNob3J0Il09InBlcmwtNS4yNi4yLWdjYy04LjIuMC1qbWplaHFyIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sWyJyZWFkbGluZS03LjAtZ2NjLTguMi4wLWh4bDNmYmgiXT17WyJGTiJdPSIvY3RhL2FwcHMvc2hhcmUvc3BhY2svbW9kdWxlcy9saW51eC11YnVudHUxNi4wNC14ODZfNjQvcmVhZGxpbmUtNy4wLWdjYy04LjIuMC1oeGwzZmJoIixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0icmVhZGxpbmUtNy4wLWdjYy04LjIuMC1oeGwz
+SLURM_TASK_PID=1675
+SLURM_NPROCS=1
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+SLURM_CPUS_ON_NODE=1
+SLURM_PROCID=0
+ENVIRONMENT=BATCH
+SLURM_JOB_NODELIST=lx15
+HOME=/cta/users/afshannabi
+SHLVL=2
+SLURM_LOCALID=0
+SLURM_JOB_CPUS_PER_NODE=1
+SLURM_CLUSTER_NAME=sabanci
+_ModuleTable002_=cHBzL3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtdWJ1bnR1MTYuMDQteDg2XzY0L2Zhc3RxYy0wLjExLjctZ2NjLTguMi4wLTQzeG5sZ3kiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJmYXN0cWMtMC4xMS43LWdjYy04LjIuMC00M3hubGd5IixbImxvYWRPcmRlciJdPTYscHJvcFQ9e30sWyJzaG9ydCJdPSJmYXN0cWMtMC4xMS43LWdjYy04LjIuMC00M3hubGd5IixbInN0YXR1cyJdPSJhY3RpdmUiLH0sWyJnZGJtLTEuMTQuMS1nY2MtOC4yLjAteWRoMzNkcyJdPXtbIkZOIl09Ii9jdGEvYXBwcy9zaGFyZS9zcGFjay9tb2R1bGVzL2xpbnV4LXVidW50dTE2LjA0LXg4Nl82NC9nZGJtLTEuMTQuMS1nY2MtOC4yLjAteWRoMzNkcyIsWyJkZWZhdWx0Il09MCxbImZ1bGxO
+SLURM_GTIDS=0
+SLURM_SUBMIT_HOST=login.hpc.sabanciuniv.edu
+SLURM_JOB_PARTITION=short
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+LOGNAME=afshannabi
+LMOD_arch=x86_64
+MODULEPATH_CTA1=/cta/apps/share/spack/modules/linux-ubuntu16.04-ivybridge
+GPU_DEVICE_ORDINAL=NoDevFiles
+SLURM_JOB_ACCOUNT=users
+LC_CTYPE=UTF-8
+SSH_CONNECTION=10.50.9.103 51328 10.39.60.250 22
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+SLURM_JOB_NUM_NODES=1
+MODULEPATH_CTA=/cta/apps/share/spack/modules/linux-ubuntu16.04-x86_64
+MODULESHOME=/usr/share/lmod/lmod
+PKG_CONFIG_PATH=/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/ncurses-6.1-wzit5nwnwohxwtj4ny5nxosgp4owaupv/lib/pkgconfig
+LMOD_FULL_SETTARG_SUPPORT=no
+CMAKE_PREFIX_PATH=/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/fastqc-0.11.7-43xnlgyoirw272pcjr2ymt4hsv5xkx43:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/perl-5.26.2-jmjehqrqi64ra6scmf5ef5vq2jeq3dye:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/gdbm-1.14.1-ydh33dscjnyglhq4ys7eaowguymnu44q:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/readline-7.0-hxl3fbh2inrmz7c3crigdhqjqxj67gzo:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/ncurses-6.1-wzit5nwnwohxwtj4ny5nxosgp4owaupv:/cta/apps/opt/spack/linux-ubuntu16.04-x86_64/gcc-8.2.0/jdk-8u172-b11-ibnkbvtb23ihb7ubuv4whedq4pbcyn4z
+XDG_RUNTIME_DIR=/run/user/1000146
+_ModuleTable006_=ZmJoIixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzaG9ydCJdPSJyZWFkbGluZS03LjAtZ2NjLTguMi4wLWh4bDNmYmgiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSx9LG1wYXRoQT17Ii9jdGEvYXBwcy9zaGFyZS9zcGFjay9tb2R1bGVzL2xpbnV4LXVidW50dTE2LjA0LXg4Nl82NCIsIi9jdGEvYXBwcy9zaGFyZS9zcGFjay9tb2R1bGVzL2xpbnV4LXVidW50dTE2LjA0LWl2eWJyaWRnZSIsIi91c3IvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9jdGEvYXBwcy9zaGFyZS9zcGFjay9tb2R1bGVzL2xpbnV4LXVidW50dTE2LjA0LXg4
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+LMOD_COLORIZE=yes
+BASH_FUNC_module%%=() {  eval $($LMOD_CMD bash "$@");
+ [ $? = 0 ] && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+_=/usr/bin/env
+======================================================================================
+
+======================================================================================
+Setting stack size to unlimited...
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 1031520
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 12800000
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 1031520
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+Running Example Job...!
+===============================================================================
+Running Python script...
+Running G++ compiler...
+Running compiled binary...
