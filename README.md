@@ -1,3 +1,22 @@
+# What in the world is a FASTQ file?
+
+FASTQ files contain unmapped sequence reads. These are the initial files we get back from a sequencing facility. 
+
+For each sequence read the FASTQ file contains 4 lines of information:
+
+| Line | Meaning | 
+:----------|:-------------|
+| 1 | Begins with @, contains information about read (like unique identifier, or a descriptor like sequence length) |
+| 2 | The nucleotide sequence of the read |
+| 3 | Begins with + and sometimes has same information as line 1 |
+| 4 | A string of characters (of same length as line 2) that represent the quality (probability that corresponding nucleotide in line 2 is correct) | 
+
+
+For more details, see [Wikipedia on FASTQ format](https://www.wikiwand.com/en/FASTQ_format) and [this link](https://hbctraining.github.io/Intro-to-rnaseq-hpc-O2/lessons/02_assessing_quality.html). 
+
+
+
+
 # Step-by-step tutorial to running fastqc on the HPC
 
 *Super awesome useful link:* [http://hpc.sabanciuniv.edu/](http://hpc.sabanciuniv.edu/) 
