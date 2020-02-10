@@ -61,7 +61,7 @@ Contains information on how to get started with HPC. Highly recommend going thro
 For mac & linux, open terminal and write this: `ssh username@10.39.60.250`. If the username is correct, you'll be asked to enter your password. Both the username and password should also be in the SABANCI HPC Cluster User Information email sent to you by someone from Compecta. Windows users, see the guide.
 
 2. **Copy .fq file from your computer to HPC**:
-For mac & linux, open terminal and `scp SP1.fq  username@10.39.60.250:~/workfolder`. (Replace username and write password.) This will copy the file `SP1.fq` from your current directory to your `workfolder` on HPC. 
+For mac & linux, open terminal and `scp SP1.fq  username@10.39.60.250:~/workfolder`. (Replace username and write password.) This will copy the file `SP1.fq` from your current directory to your `workfolder` on HPC. Windows users, see the guide.
 
 This [StackExchange answer](https://unix.stackexchange.com/a/188289) has some useful information on `scp`. 
 
@@ -80,12 +80,12 @@ Set directory to `/cta/share/` like this: `cd /cta/share/`. Copy the `slurm_exam
 
 ## Other recommended links
 
-* [Here](https://hbctraining.github.io/Intro-to-rnaseq-hpc-O2/lessons/02_assessing_quality.html) is some to-the-point, useful information on the contents of FASTQ files.
+
 * [Official website](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) for fastqc. Super useful to look at example good and bad results.
 * [Fastqc manual](https://dnacore.missouri.edu/PDF/FastQC_Manual.pdf) explains what the different analysis modules mean (see Section 3).
 
 ## Honorable Mentions
-* Can also `git clone link/to/repo` in HPC. (but `scp` will surely be useful someday.)
+* Can also `git clone link/to/repo` in HPC (but `scp` will surely be useful someday, or maybe not.)
 
 
 
