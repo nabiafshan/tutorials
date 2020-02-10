@@ -18,7 +18,9 @@ Sources (and for more details, see): [Wikipedia on FASTQ format](https://www.wik
 ### What's the deal with the weird looking quality scores?
 
 ` Quality encoding: !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHI
+
                    |         |         |         |         |
+                   
     Quality score: 0........10........20........30........40`
 
 
