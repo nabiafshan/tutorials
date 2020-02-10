@@ -12,7 +12,7 @@ For mac & linux, open terminal and `scp SP1.fq  username@10.39.60.250:~/workfold
 
 This [StackExchange answer](https://unix.stackexchange.com/a/188289) has some useful information on `scp`. 
 
-3. **View available modeules**: 
+3. **View available modules**: 
 Use `module avail`. Can also use `module avail fastqc` to find whether fastqc is available. 
 
 4. **Get example job script from `/cta/share/`**: 
@@ -27,9 +27,12 @@ Set directory to `/cta/share/` like this: `cd /cta/share/`. Copy the `slurm_exam
 
 ## Other recommended links
 
-* [Here](https://hbctraining.github.io/Intro-to-rnaseq-hpc-O2/lessons/02_assessing_quality.html) is some useful information on the contents of FASTQ files.
-* [Official website](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) for fastqc, contains example good and bad results.
-* [Fastqc manual](https://dnacore.missouri.edu/PDF/FastQC_Manual.pdf) explains what the different analysis modules mean (see Section 3)
+* [Here](https://hbctraining.github.io/Intro-to-rnaseq-hpc-O2/lessons/02_assessing_quality.html) is some to-the-point, useful information on the contents of FASTQ files.
+* [Official website](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) for fastqc. Super useful to look at example good and bad results.
+* [Fastqc manual](https://dnacore.missouri.edu/PDF/FastQC_Manual.pdf) explains what the different analysis modules mean (see Section 3).
+
+## Honorable Mentions
+* Can also `git clone link/to/repo` in HPC. (but `scp` will surely be useful someday.)
 
 
 
