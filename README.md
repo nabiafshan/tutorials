@@ -81,7 +81,7 @@ Set directory to `/cta/share/` like this: `cd /cta/share/`. Copy the `slurm_exam
 
 6. **Submit your job**: Use `sbatch slurm_example.sh`
 
-7. **Copy results to your computer**: Use `scp username@10.39.60.250:~/workfolder/SP1_fastqc.zip .` (from terminal on your machine!). Change username and enter your password. File should be in the directory you're in. Unzip and view the html file. 
+7. **Copy results to your computer**: Use `scp username@10.39.60.250:~/workfolder/fastqc-hpc-tutorial/SP1_fastqc.zip .` (from terminal on your machine!). Change username and enter your password. File should be in the directory you're in. Unzip and view the html file. 
 
 
 ## Other recommended links
